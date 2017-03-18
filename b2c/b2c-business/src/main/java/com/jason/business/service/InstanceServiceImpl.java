@@ -21,7 +21,7 @@ public class InstanceServiceImpl implements InstanceService {
 	@Override
 	public List<Object> queryList(String name) {
 		// TODO Auto-generated method stub
-		System.out.println("success================================================");
+		System.out.println("success===============================================");
 		User user = userMapper.findUserByName("test");
 		System.out.println("success================================================"+user.getId());
 		User user2 = new User();
